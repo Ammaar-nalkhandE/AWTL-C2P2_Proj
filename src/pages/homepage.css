@@ -1,0 +1,9 @@
+/* homepage.css */
+
+/* Apply styles to images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensures images are displayed as block elements */
+    margin: 0 auto; /* Centers the images horizontally */
+}

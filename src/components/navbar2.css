@@ -1,0 +1,37 @@
+.below-navbar {
+    display: flex; /* Display items horizontally */
+    justify-content: center; /* Center-align items horizontally */
+    background-color: grey; /* Grey background color */
+    padding: 10px; /* Add padding for better spacing */
+}
+
+.nav-item {
+    margin: 0 10px; /* Add margin between items */
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #333; /* Link color */
+    padding: 8px 12px; /* Add padding around links */
+}
+
+.dropdown-menu {
+    display: block; /* Display dropdown menu */
+    position: absolute; /* Position it absolutely */
+    background-color: #fff; /* White background color for dropdown */
+    padding: 8px 0; /* Add padding */
+    margin-top: 10px; /* Adjust dropdown position */
+    text-align: left; /* Left-align dropdown items */
+    list-style: none; /* Remove default list styles */
+}
+
+.dropdown-menu li a {
+    display: block; /* Display dropdown items as blocks */
+    padding: 8px 12px; /* Add padding */
+    color: #333; /* Dropdown item color */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.dropdown-menu li a:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
