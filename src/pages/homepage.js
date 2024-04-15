@@ -7,6 +7,7 @@ import "./homepage.css"
 import Slideshow from "../components/rotating_imgs";
 import Grid from "../components/Popular_categ";
 import Navbar2 from "../components/navbar2";
+import Grid2 from "../components/shop_by_pets";
 function Homepage(props) {
     return (
         <div>
@@ -17,7 +18,7 @@ function Homepage(props) {
             <h2>Popular Categories</h2>
             <Grid/>
             <h2>Shop By Pets</h2>
-            <Grid/>
+            <Grid2/>
         </div>
     );
 }
